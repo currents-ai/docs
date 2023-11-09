@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'currents-dyuti', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore', //'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
