@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'FreeText AI',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -56,6 +56,16 @@ const config: Config = {
   ],
 
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'privacy',
+        path: 'privacy',
+        routeBasePath: 'privacy',
+        sidebarPath: './sidebarsPrivacy.js',
+        // ... other options
+      },
+    ],
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -73,9 +83,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'FreeText AI',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'FreeText AI Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,12 +95,20 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/privacy/intro',    
+          label: 'Privacy',
+          position: 'left',
+          activeBaseRegex: `/privacy`,
+        },
+        //{to: '/blog', label: 'Blog', position: 'left'},
+        /*
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
+        */
       ],
     },
     footer: {

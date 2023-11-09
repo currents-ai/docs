@@ -54,12 +54,8 @@ html[data-theme="dark"] .navbar .navbar__logo {
 .card {
   @apply bg-zinc-100 dark:bg-zinc-900;
 }
-.pagination-nav__link {
-  @apply lg:max-w-lg !important;
-}
+
 .footer__copyright {
   @apply text-xs !important;
 }
-.pagination-nav__link--next, .pagination-nav__link--prev  {
-  @apply border-transparent !important;
-}
+
