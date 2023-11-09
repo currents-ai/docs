@@ -55,6 +55,20 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"))
+          postcssOptions.plugins.push(require("autoprefixer"))
+          return postcssOptions
+        },
+      }
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -80,48 +94,48 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
+      //style: 'dark',
+      //links: [
+      //  {
+      //    title: 'Docs',
+      //    items: [
+      //      {
+      //        label: 'Tutorial',
+      //        to: '/docs/intro',
+      //      },
+      //    ],
+      //  },
+      //  {
+      //    title: 'Community',
+      //    items: [
+      //      {
+      //        label: 'Stack Overflow',
+      //        href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //      },
+      //      {
+      //        label: 'Discord',
+      //        href: 'https://discordapp.com/invite/docusaurus',
+      //      },
+      //      {
+      //        label: 'Twitter',
+      //        href: 'https://twitter.com/docusaurus',
+      //      },
+      //    ],
+      //  },
+      //  {
+      //    title: 'More',
+      //    items: [
+      //      {
+      //        label: 'Blog',
+      //        to: '/blog',
+      //      },
+      //      {
+      //        label: 'GitHub',
+      //        href: 'https://github.com/facebook/docusaurus',
+      //      },
+      //    ],
+      //  },
+      //],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
