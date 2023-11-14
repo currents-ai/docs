@@ -3,9 +3,12 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Texture from "@site/static/img/assets/texture.png";
 import Lights from "@site/static/img/assets/lights.png";
 import Holy from "@site/static/img/assets/holy.png";
+import {usePluginData} from '@docusaurus/useGlobalData';
 
 export default function Home() {
   const { globalData } = useDocusaurusContext()
+  const boo = usePluginData()
+  
   const docs =
     globalData["docusaurus-plugin-content-docs"].default.versions[0].docs
 
@@ -20,7 +23,7 @@ export default function Home() {
           doc.path.split("/").pop().replace(/-/g, " ").slice(1), // Capitalize the first letter
       }
     })
- 
+
   return (
     <div className="space-y-16">
       <div className="bg-gradient-to-r overflow-hidden from-zinc-950 to-stone-700 w-full h-[30vh] flex justify-center items-center rounded-2xl my-4 lg:my-0 mx-auto lg:mt-10 relative ">
