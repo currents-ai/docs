@@ -20,6 +20,7 @@ export default function Home() {
           doc.path.split("/").pop().replace(/-/g, " ").slice(1), // Capitalize the first letter
       }
     })
+ 
   return (
     <div className="space-y-16">
       <div className="bg-gradient-to-r overflow-hidden from-zinc-950 to-stone-700 w-full h-[30vh] flex justify-center items-center rounded-2xl my-4 lg:my-0 mx-auto lg:mt-10 relative ">
@@ -37,14 +38,14 @@ export default function Home() {
         />
         <div className="text-center space-y-8 z-20">
           <h1 className="text-white text-4xl lg:text-6xl font-semibold">
-            FreeText AI Help Center
+            FreeText AI Help Center 
           </h1>
         </div>
       </div>
-      <div className="space-y-2 pb-4 lg:pb-0">
+      <div className="flex flex-wrap justify-center md:justify-start">
         {mainCategories.map((category) => (
-          <div key={category.id}>
-            <a className="pagination-nav__link" href={category.path}>
+          <div key={category.id} className="md:w-[47%] w-full m-2">
+            <a className="pagination-nav__link font-semibold text-black py-6" href={category.path}>
               {category.label}
             </a>
           </div>

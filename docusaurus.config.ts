@@ -81,7 +81,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'FreeText AI',
+      title: 'freetext.ai',
       logo: {
         alt: 'FreeText AI Logo',
         src: 'img/logo.svg',
@@ -89,9 +89,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'helpSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Help',
         },
         {
           to: '/privacy/intro',    
@@ -100,13 +100,11 @@ const config: Config = {
           activeBaseRegex: `/privacy`,
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
-        /*
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://freetext.ai',
+          label: 'Go To FreeText AI',
           position: 'right',
         },
-        */
       ],
     },
     footer: {

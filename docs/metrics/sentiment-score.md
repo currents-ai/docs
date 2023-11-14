@@ -1,5 +1,10 @@
 ---
 slug: /sentiment-score
+title: Sentiment Score | Overview
+description: Sentiment Score allows brands and businesses to gauge the prevailing customer sentiment around their products, services, or campaigns. 
+sidebar_label: Sentiment Score
+sidebar_position: 1
+
 ---
 
 
