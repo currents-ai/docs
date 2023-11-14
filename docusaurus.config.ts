@@ -54,6 +54,10 @@ const config: Config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
+        gtag: {
+          trackingID: 'G-DWVESMCXRP',
+          anonymizeIP: false,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
