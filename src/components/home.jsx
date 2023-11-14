@@ -3,17 +3,15 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Texture from "@site/static/img/assets/texture.png";
 import Lights from "@site/static/img/assets/lights.png";
 import Holy from "@site/static/img/assets/holy.png";
-import {usePluginData} from '@docusaurus/useGlobalData';
 
 export default function Home() {
   const { globalData } = useDocusaurusContext()
-  const boo = usePluginData()
-  
+ 
   const docs =
     globalData["docusaurus-plugin-content-docs"].default.versions[0].docs
 
   const mainCategories = docs
-    .filter((doc) => doc.path.includes("/docs/category/"))
+    .filter((doc) => doc.id.includes("/category/"))
     .map((doc) => {
       return {
         id: doc.id,

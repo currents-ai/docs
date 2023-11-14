@@ -35,6 +35,8 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'help',
+          routeBasePath: 'help',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -60,10 +62,11 @@ const config: Config = {
         id: 'privacy',
         path: 'privacy',
         routeBasePath: 'privacy',
-        sidebarPath: './sidebarsPrivacy.js',
+        sidebarPath: './sidebarsPrivacy.ts',
         // ... other options
-      },
+      } 
     ],
+
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
