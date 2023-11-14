@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3527],{2604:e=>{e.exports=JSON.parse('{"title":"Metrics","slug":"/category/metrics","permalink":"/docs/docs/category/metrics","navigation":{"previous":{"title":"How to Manage Catalog","permalink":"/docs/docs/manage-catalog"},"next":{"title":"Sentiment Score","permalink":"/docs/docs/sentiment-score"}}}')}}]);
