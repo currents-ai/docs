@@ -1,3 +1,6 @@
 {
-  "label": "Metrics"
+  "label": "Metrics",
+  "link": {
+    "type": "generated-index"
+  }
 }

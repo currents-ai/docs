@@ -5,9 +5,6 @@ slug: /sentiment-score
 
 # Sentiment Score (Percent)
 
-
-## What is a Sentiment Score?
-
 A Sentiment Score is a cumulative metric that encapsulates the overall emotional resonance of customer feedback. It considers all relevant customer feedback, calculating an aggregate score that reflects the prevailing sentiment—be it positive, negative, or neutral—amongst a customer base.
 
 The score ranges from 0% to 100%.

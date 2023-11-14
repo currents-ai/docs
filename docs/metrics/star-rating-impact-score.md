@@ -5,8 +5,6 @@ slug: /star-rating-impact-score
 
 # Star Rating Impact Score 
 
-
-## Overview 
 In the realm of ecommerce and customer reviews, the Star Rating of a product serves as a quick visual cue for product quality and significantly affects purchase decisions. Understanding which aspects of a product are affecting its Star Rating positively or negatively can guide improvements and innovation.
 
 The Rating Impact Score is a metric designed to quantify the influence of topics on the overall star rating of a product.
