@@ -50,17 +50,20 @@ Data Sources are different streams of data from individual channels.
 | Chat Tickets      | Intercom, Crisp                                               |
 | Survey Responses  | SurveyMonkey, Typeform, and more                              |
 
-**[Full List of Supported Channels](https://freetext.ai/channels)**
+**[Full List of Supported Channels](/help/channels)**
 
 ### Steps to Set Up Channels
 
 - For new accounts, you'll be taken to the channels page after sign-up. 
 - The channels enabled for your account will be listed.
+- Click on your desired channel and follow the instructions to set up a data source for that channel.
+- To manage channels, go to **Manage > Channels** in your dashboard.
 
 ![Image 0](/img/help/channels.png)
 
-- Click on your desired channel and follow the instructions to set up a data source for that channel.
-- To manage channels, go to **Manage > Channels** in your dashboard.
+<br />
+<br/>
+
 
 :::note
 If you need a channel that's not listed or is not enabled for your account, drop an email to support@freetext.ai or **[contact here](https://freetext.ai/contact)**.
