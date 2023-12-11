@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-slug: /data-sources
+slug: /ecommerce-data-sources
 ---
 
 
-# Data Sources
+# Data Sources | eCommerce
 
 "Sources" are custom sources of data that you may want to analyze independently. For e.g an individual product is a source, so is a cluster of products, or a brand.
 

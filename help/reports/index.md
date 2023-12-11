@@ -1,11 +1,9 @@
 ---
 sidebar_position: 1
-slug: /channels
-title: Channels 
-sidebar_label: Channels 
+slug: /reports
 ---
 
-# Channels 
+# Reports 
 
 Channels are different sources from where you can bring in data to FreeText AI.
 

@@ -14,19 +14,22 @@ Welcome to FreeText AI! This guide will walk you through the initial steps to ge
 
 ### Sign Up
 - **[Sign Up for FreeText AI](https://freetext.ai/signup)** using your official work email.
-- Your account will be associated with your company's account if one exists.
+- If your company is an existing customer, your account will be automatically associated with your company's account.
 - Set up a secure password (minimum of 6 characters). We recommend following standard security practices for password creation.
 
 ### Log In
 - **[Log In to Your Account](https://freetext.ai/login)** if you already have one.
-- Ensure your account is linked to your company's account by using your work email.
-- For any issues, reach out to us at support@freetext.ai, via the chat bubble, or through our **[contact page](https://freetext.ai/contact)**.
+- Use your work email id - to ensure your account is linked to your company's account.
+
+:::note
+For any issues, reach out to us at support@freetext.ai, via the chat bubble, or through our **[contact page](https://freetext.ai/contact)**.
+:::
 
 ## Setup Channels & Data Sources
 
-Channels are different sources from where you can bring in data to FreeText AI.
+**Channels** are different origin points of data - from where you can bring in data to FreeText AI.
 
-Data Sources are different streams of data from individual channels. 
+**Data Sources** are different streams of data from individual channels. 
 
 > Channel - TypeForm
 > <br/>Data Source #1 - CSAT Survey Responses

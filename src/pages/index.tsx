@@ -11,8 +11,8 @@ export default function Index(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Docs`}
+      description={`FreeText AI Docs - Hub for privacy, help docs and other resources.`}>
       <main>
         <div className="max-w-6xl m-auto p-4"><Home /></div>
       </main>
