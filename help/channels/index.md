@@ -7,21 +7,53 @@ sidebar_label: Channels
 
 # Channels
 
-Channels are different sources from where you can bring in data to FreeText AI.
+Once your account is set up, you need to start adding data for analysis.
 
-This document provides an overview of all channels, including those that are available, in progress, and planned for future release.
+**Channels** are different origin points of data - from where you can bring in data to FreeText AI.
 
-## CSV UPLOAD
+**Data Sources** are different streams of data from individual channels. 
+
+## Channel Examples
+
+> **Channel: TypeForm**
+> <br/>Data Source - CSAT Survey Responses
+> <br/>Data Source - Support Survey Responses
+> <br/>Data Source - Product Feedback Responses
+
+> **Channel: App Store**
+> <br/>Data Source - App 1 Reviews 
+> <br/>Data Source - App 2 Reviews 
+
+> **Channel: Amazon.com**
+> <br/>Data Source - Apple iPhone 15 reviews
+> <br/>Data Source - Footwear Category Reviews
+
+
+## **Types of Channels**
+
+
+| Type              | Channels                                                      |
+| ----------------- | ------------------------------------------------------------- |
+| CSV Upload        | Direct data uploads                                           |
+| Product Reviews   | Amazon, BestBuy, Flipkart, etc.                               |
+| App Reviews       | App Store, Google Play Store                                  |
+| Software Reviews  | G2, Capterra                                                  |
+| Support Tickets   | Salesforce, Zendesk, HubSpot                                  |
+| Chat Tickets      | Intercom, Crisp                                               |
+| Survey Responses  | SurveyMonkey, Typeform, and more                              |
+
+
+### CSV UPLOAD
 
 | Channel       | Status    |
 |---------------|-----------|
 | CSV Uploads   | Available |
 
 :::tip
-CSV Upload option can be used to upload data into the platform, in lieu of channels that are not available.
+CSV Upload option can be used to upload data into the platform, in lieu of channels that are not available or in progress.
 :::
 
-## ECOMMERCE
+### ECOMMERCE
 
 | Channel            | Status    |
 |--------------------|-----------|
@@ -45,15 +77,16 @@ CSV Upload option can be used to upload data into the platform, in lieu of chann
 | Ulta               | Available |
 | Macy’s             | Upcoming  |
 | Zalando            | Upcoming  |
+| Walmart            | Upcoming  |
 
-## APPS
+### APPS
 
 | Channel           | Status    |
 |-------------------|-----------|
 | Apple App Store   | Available |
 | Google Play Store | Available |
 
-## REVIEW SITES
+### REVIEW SITES
 
 | Channel        | Status    |
 |----------------|-----------|
@@ -64,7 +97,7 @@ CSV Upload option can be used to upload data into the platform, in lieu of chann
 | TripAdvisor    | Available |
 | Booking        | Available |
 
-## CRM - Tickets/Emails/Chats
+### CRM - Tickets/Emails/Chats
 
 | Channel    | Status    |
 |------------|-----------|
@@ -75,7 +108,7 @@ CSV Upload option can be used to upload data into the platform, in lieu of chann
 | FreshDesk  | Upcoming  |
 | Zoho CRM   | Upcoming  |
 
-## SURVEY TOOLS
+### SURVEY TOOLS
 
 | Channel       | Status    |
 |---------------|-----------|
@@ -87,7 +120,7 @@ CSV Upload option can be used to upload data into the platform, in lieu of chann
 | Qualtrics     | Upcoming  |
 | FreshDesk     | Upcoming  |
 
-## SOCIAL
+### SOCIAL
 
 | Channel   | Status      |
 |-----------|-------------|
@@ -98,13 +131,13 @@ CSV Upload option can be used to upload data into the platform, in lieu of chann
 | TikTok    | Upcoming    |
 | Facebook  | Upcoming    |
 
-## DATA EXPORT
+### DATA EXPORT
 
 | Channel  | Status    |
 |----------|-----------|
-| PowerBI  | Upcoming  |
-| Tableau  | Upcoming  |
+| PowerBI  | TBD       |
+| Tableau  | TBD       |
 
 :::note
-Custom integrations can be built and supported for annual plans. Get in touch (support@freetext.ai).
+Custom integrations can be built and supported for annual plans. Get in touch (help@freetext.ai).
 :::
