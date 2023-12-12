@@ -11,7 +11,7 @@ Once your account is set up, you need to start adding data for analysis.
 
 **Channels** are different origin points of data - from where you can bring in data to FreeText AI.
 
-**Data Sources** are different streams of data from individual channels. 
+**Sources** are different streams of data from individual channels, that you may want to analyze independently. 
 
 ## Examples
 
