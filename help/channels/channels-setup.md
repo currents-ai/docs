@@ -1,25 +1,25 @@
 ---
 sidebar_position: 1
-slug: /setup-channel
+slug: /channels-setup
 title: Setup Channels
 ---
 
-# Set Up Channels
+# Setting Up Channels
 
 If you've just created a new account, you'll be redirected to the channels page.
 
-The channels page lists all the channels enabled for your account by default.
+The channels page lists all the channels enabled for your account, as well as other channels supported by the platform.
 
 ![Image 0](/img/help/channels.png)
 
 
-## Enable Channel
+## Add Channel
 
-To enable a channel, simply click on the desired channel and follow the instructions to set up a data source for that channel.
+To add one of the enabled channels, simply click on the desired channel and follow the instructions to set up a data source for that channel.
 
 ## Manage Channels
 
-To manage channels, from the LHS navigation, go to **Manage > Channels** in your dashboard.
+To manage channels, go to **Manage > Channels** in your dashboard, from the LHS navigation.
 
 ![Channels-Menu](/img/help/manage-channels-menu.png)
 

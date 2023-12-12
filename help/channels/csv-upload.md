@@ -19,6 +19,7 @@ For example -
 
 ![CSV Columns](/img/help/csv-cols.png)
 
+<br/>
 ### Step 2: Uploading the CSV File
 
 To upload your CSV file:
@@ -39,8 +40,12 @@ To upload your CSV file:
 Large files may take longer to upload. Please be patient and do not navigate away from the page during this process.
 :::
 
+<br/>
 ### Step 3: Mapping CSV Columns
-Post successful upload, map each relevant CSV column to a label within the system and validate the data.
+
+Post successful upload, map each CSV column to a [label](#understanding-labels). You can choose to ignore a column by selecting "Ignore this column" option.
+
+Once the columns are mapped, click on "Validate & Submit" to continue.
 
 ![CSV Mapping](/img/help/csv-map.png)
 
@@ -48,7 +53,9 @@ Post successful upload, map each relevant CSV column to a label within the syste
 Exact row duplicates will be removed with a "warning" and not processed.
 :::
 
-#### Understanding Labels
+<br/>
+<br/>
+#### Understanding Labels 
 
 Labels are identifiers for your data columns and can be thought of as 'tags'. They consist of a name and a type (e.g., 'text', 'string', 'number', 'boolean').
 
@@ -65,6 +72,7 @@ Labels with structured data (e.g numeric, boolean, string) will become filters i
 You can create new labels or use pre-existing ones to keep your data consistent across different uploads.
 :::
 
+<br/>
 ### Step 4: Tracking Progress
 After mapping, a task is created to process your data. You can monitor this in the **Manage > Data Sources** section.
 
@@ -76,31 +84,33 @@ Processing times vary. Small files may take a few minutes, while larger sets cou
 Don't worry - you'll receive an email once the processing is completed.
 :::
 
+<br/>
 ### Step 5: Accessing Your Insights
 
 Once the data is processed, the platform will auto-generate reports. These reports can be used to draw insights and make informed decisions.
-
-`[Placeholder for screenshot of sample report]`
 
 :::tip
 Custom Reports!
 <br/>You can create custom reports with personalized widgets, cuts and visualizations.
 :::
 
+<br/>
 ## Additional Information
 
 - **Combining CSV Files**: If you have multiple CSV files with the same structure, they can be combined after upload.
 - **Quota Limits**: Keep in mind your account's processing quota when uploading files.
 - **Notification**: An email will be sent to you once your data has finished processing.
 
+<br/>
 ## Troubleshooting and Support
 
 If you encounter any issues or have questions:
 
-- Review our FAQ section for immediate help.
-- Contact our support team:
-  - Email: [support@freetext.ai](mailto:support@freetext.ai)
-  - Contact Form: [https://freetext.ai/contact](https://freetext.ai/contact)
+- Refer the FAQ section for immediate help.
+- Contact the support team:
+  - Ping via the chat bubble
+  - Email at [support@freetext.ai](mailto:support@freetext.ai)
+  - [Message via contact form](https://freetext.ai/contact)
 
 
 

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 slug: /channels
-title: Channels
-sidebar_label: Channels
+title: Channels & Sources
+sidebar_label: Channels & Sources
 ---
 
-# Channels
+# Channels & Sources
 
 Once your account is set up, you need to start adding data for analysis.
 
@@ -13,7 +13,7 @@ Once your account is set up, you need to start adding data for analysis.
 
 **Data Sources** are different streams of data from individual channels. 
 
-## Channel Examples
+## Examples
 
 > **Channel: TypeForm**
 > <br/>Data Source - CSAT Survey Responses
@@ -32,15 +32,16 @@ Once your account is set up, you need to start adding data for analysis.
 ## **Types of Channels**
 
 
-| Type              | Channels                                                      |
-| ----------------- | ------------------------------------------------------------- |
-| CSV Upload        | Direct data uploads                                           |
-| Product Reviews   | Amazon, BestBuy, Flipkart, etc.                               |
-| App Reviews       | App Store, Google Play Store                                  |
-| Software Reviews  | G2, Capterra                                                  |
-| Support Tickets   | Salesforce, Zendesk, HubSpot                                  |
-| Chat Tickets      | Intercom, Crisp                                               |
-| Survey Responses  | SurveyMonkey, Typeform, and more                              |
+| Type              | Channels                         |
+| ----------------- | ---------------------------------|
+| CSV Upload        | Direct data uploads              |
+| eCommerce         | Amazon, BestBuy, Flipkart, etc.  |
+| App Stores        | App Store, Google Play Store     |
+| Reviews           | G2, Capterra, Booking            |
+| Support Tickets   | Salesforce, Zendesk, HubSpot     |
+| Chats             | Intercom, Crisp                  |
+| Surveys           | SurveyMonkey, Typeform, and more |
+| Social            | Twitter, Reddit and more |
 
 
 ### CSV UPLOAD
