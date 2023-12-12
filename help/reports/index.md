@@ -21,7 +21,6 @@ Use this option when creating a reusable report format to be used with multiple 
 - A "Reddit Comment Report" template can be used for different sub-reddit comments analysis.
 - A "Product (SKU) Report" template can be used with different eCommerce products or SKUs.
 
-
 ## 2. Instance Reports 
 
 Instance Report are reports for specific data sources. The data sources are saved or associated with the report and widgets.
