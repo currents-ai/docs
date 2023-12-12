@@ -1,4 +1,4 @@
 # Website
 
 npm run start
-npm build
+npm run build

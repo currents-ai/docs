@@ -10,8 +10,9 @@ export default function Home() {
   const docs =
     globalData["docusaurus-plugin-content-docs"].default.versions[0].docs
 
+  // hack to find categories
   const mainCategories = docs
-    .filter((doc) => doc.id.includes("/category/"))
+    .filter((doc) => doc.id.includes("/category/") || doc.id.includes("/index"))
     .map((doc) => {
       return {
         id: doc.id,
