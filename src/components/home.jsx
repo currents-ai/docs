@@ -3,6 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Texture from "@site/static/img/assets/texture.png";
 import Lights from "@site/static/img/assets/lights.png";
 import Holy from "@site/static/img/assets/holy.png";
+import categoryData from './categoryData.json'
 
 export default function Home() {
   const { globalData } = useDocusaurusContext()
@@ -10,6 +11,7 @@ export default function Home() {
   const docs =
     globalData["docusaurus-plugin-content-docs"].default.versions[0].docs
 
+  console.log("docs", docs)
   // hack to find categories
   const mainCategories = docs
     .filter((doc) => doc.id.includes("/category/") || doc.id.includes("/index"))
@@ -45,13 +47,16 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center md:justify-start">
-        {mainCategories.map((category) => (
-          <div key={category.id} className="md:w-[47%] w-full m-2">
-            <a className="pagination-nav__link font-semibold text-black py-6" href={category.path}>
-              {category.label}
-            </a>
-          </div>
-        ))}
+        {Object.keys(categoryData).map((key) => {
+          const category = categoryData[key]
+          return(
+            <div key={key} className="md:w-[47%] w-full m-2">
+              <a className="pagination-nav__link font-semibold text-black py-6" href={"/"}>
+                {category.header}
+              </a>
+            </div>
+          )}
+        )}
       </div>
     </div>
   )

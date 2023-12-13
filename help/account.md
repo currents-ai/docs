@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /account-setup
+slug: /account
 title: Account Setup
 sidebar_label: Account Setup
 ---

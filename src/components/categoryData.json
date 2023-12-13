@@ -1,0 +1,32 @@
+{
+  "account": {
+    "header": "Account",
+    "subheader": "Account, profile management and more.",
+    "icon": "test.png"
+  },
+  "channels": {
+    "header": "Channels & Sources",
+    "subheader": "Channels & Data Sources - Basics, Setup and Management.",
+    "icon": "icon1.png"
+  },
+  "reports": {
+    "header": "Reporting",
+    "subheader": "Articles about reports",
+    "icon": "default_icon.png"
+  },
+  "metrics": {
+    "header": "Metrics",
+    "subheader": "Articles about metrics",
+    "icon": "default_icon.png"
+  },
+  "platform": {
+    "header": "Platform",
+    "subheader": "Description for Category 2",
+    "icon": "icon2.png"
+  },
+  "roles": {
+    "header": "Users, Teams & Roles",
+    "subheader": "Articles about roles",
+    "icon": "default_icon.png"
+  }
+}

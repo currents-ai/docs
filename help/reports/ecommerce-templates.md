@@ -18,6 +18,9 @@ List of templates for eCommerce -
 | **Rank List** | Rank products or brands based on what's top, trending, dropping or new  |
 | **Cross Marketplace** | Analyze performance of brands or products across various eCommerce retailers  |
 | **Cross Category** | Analyze performance of brand spanning across different categories.  |
+| **Sentiment Volume  Report** | Analyze volume to sentiment trade-offs. Useful for looking into a category or cluster of products.  |
+| **Price Trend Report** | Understand min-max price trends over time.  |
+| **Share of Voice Over Time** | Analyze volume / attention trends over time.  |
 
 You can create custom templates as well. [Read more here](/reports/create-report).
 

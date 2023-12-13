@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'FreeText AI',
-  tagline: '',
+  title: 'FreeText AI Documentation',
+  tagline: 'Help and Privacy docs at FreeText AI',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

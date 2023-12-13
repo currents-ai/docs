@@ -30,10 +30,9 @@ Click on the "Create Report" icon.
 ![report-modal](/img/help/reports/report-modal.png)
 
 
-### Click "Save"
+### 4. Click "Save"
 
-Clicking on "Save" will create a new report, with the details specified.
-
+Clicking on "Save" will create a new empty report and you can start adding widgets.
 
 ![report-empty](/img/help/reports/report-empty.png)
 
