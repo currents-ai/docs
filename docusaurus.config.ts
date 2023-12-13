@@ -36,7 +36,7 @@ const config: Config = {
       {
         docs: {
           path: 'help',
-          routeBasePath: 'help',
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

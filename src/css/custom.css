@@ -44,6 +44,13 @@
   --ifm-toc-border-color: theme(colors.zinc.800) !important;
 }
 
+
+/* image styles for markdown images */
+.img_node_modules-\@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module {
+    @apply border-2 border-black shadow-2xl my-5 py-5;
+}
+
+
 html[data-theme="dark"] .navbar .navbar__logo {
   content: url(/img/logo-white.svg);
 }
