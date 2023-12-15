@@ -1,32 +1,32 @@
 {
   "account": {
     "header": "Account",
-    "subheader": "Account, profile management and more.",
-    "icon": "test.png"
+    "subheader": "Articles on account and profile managementment.",
+    "icon": "img/icons/user.svg"
   },
   "channels": {
     "header": "Channels & Sources",
-    "subheader": "Channels & Data Sources - Basics, Setup and Management.",
-    "icon": "icon1.png"
+    "subheader": "Basics, setup and management.",
+    "icon": "img/icons/table-cells.svg"
   },
   "reports": {
     "header": "Reporting",
-    "subheader": "Articles about reports",
-    "icon": "default_icon.png"
+    "subheader": "Charts and visualizations. Custom reports and templates.",
+    "icon": "img/icons/document-chart-bar.svg"
   },
   "metrics": {
     "header": "Metrics",
-    "subheader": "Articles about metrics",
-    "icon": "default_icon.png"
+    "subheader": "Definitions, explanations and intuition behind different metrics.",
+    "icon": "img/icons/beaker.svg"
   },
   "platform": {
     "header": "Platform",
-    "subheader": "Description for Category 2",
-    "icon": "icon2.png"
+    "subheader": "Documentation on core platform features.",
+    "icon": "img/icons/cpu-chip.svg"
   },
   "roles": {
     "header": "Users, Teams & Roles",
-    "subheader": "Articles about roles",
-    "icon": "default_icon.png"
+    "subheader": "Manage users, teams and understand permissions.",
+    "icon": "img/icons/users.svg"
   }
 }

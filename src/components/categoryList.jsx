@@ -38,19 +38,30 @@ export default function Home() {
       <div className="flex flex-wrap justify-center md:justify-start">
         {mainCategories.map((category) => {
           return(
-            <div key={category.id} className="md:w-[47%] w-full m-2">
-              <a className="pagination-nav__link" href={category.path}>
-                <div className=" font-semibold text-black dark:text-white">
-                  {category.header}
-                </div>
-                <div className="mt-2 text-gray-700 dark:text-gray-300 truncate">
-                  {category.subheader} 
-                </div>
-                <div className="mt-2 text-gray-500 text-sm italic">
-                  {category.count} articles
-                </div>
-              </a>
-            </div>
+            
+
+<div key={category.id} className="md:w-[47%] w-full m-2">
+  <a className="pagination-nav__link h-full w-full" href={category.path}>
+    <div className="flex h-full w-full items-center">
+      <div className="flex h-16 w-auto  mr-3">
+        <img src={category.icon || "img/icons/table-cells.svg"} className="h-full w-full object-cover" alt="Logo" />
+      </div>
+      <div className="flex-1 truncate">
+        <div className="font-semibold text-black dark:text-white">
+          {category.header}
+        </div>
+        <div className="text-gray-700 dark:text-gray-300 truncate mt-1">
+          {category.subheader}
+        </div>
+        <div className="text-gray-500 text-sm italic mt-1">
+          {category.count} articles
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
           )}
         )}
       </div>
