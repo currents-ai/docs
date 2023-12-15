@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://freetext.ai/docs/blog</id>
-    <title>FreeText AI Blog</title>
+    <title>FreeText AI Documentation Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://freetext.ai/docs/blog"/>
-    <subtitle>FreeText AI Blog</subtitle>
+    <subtitle>FreeText AI Documentation Blog</subtitle>
     <icon>https://freetext.ai/docs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
