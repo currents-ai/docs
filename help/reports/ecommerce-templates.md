@@ -22,5 +22,5 @@ List of templates for eCommerce -
 | **Price Trend Report** | Understand min-max price trends over time.  |
 | **Share of Voice Over Time** | Analyze volume / attention trends over time.  |
 
-You can create custom templates as well. [Read more here](/reports/create-report).
+You can create custom templates as well. [Read more here](/create-report).
 

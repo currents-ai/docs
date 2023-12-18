@@ -5,7 +5,7 @@ slug: /reports
 
 # Reports
 
-You can create custom reports to visualize data and tell a story.
+You can create custom reports and widgets to visualize data.
 
 There are a couple of different types of reports.
 

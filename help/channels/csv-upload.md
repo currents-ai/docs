@@ -24,7 +24,7 @@ For example -
 
 To upload your CSV file:
 
-#### 1. Go to **Manage > Channels** on the platform.
+#### 1. Go to **Manage > Channels** 
 
 ![CSV Columns](/img/help/manage-channels.png)
 
@@ -76,7 +76,7 @@ You can create new labels or use pre-existing ones to keep your data consistent 
 ### Step 4: Tracking Progress
 After mapping, a task is created to process your data. You can monitor this in the **Manage > Data Sources** section.
 
-`[Placeholder for screenshot showing data processing progress]`
+![Task Progress Screenshot](/img/help/data-sources.png)
 
 :::tip
 Processing times vary. Small files may take a few minutes, while larger sets could take hours. 

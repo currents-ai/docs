@@ -44,6 +44,9 @@
   --ifm-toc-border-color: theme(colors.zinc.800) !important;
 }
 
+video {
+  @apply w-full h-auto shadow-2xl my-5;
+}
 
 /* image styles for markdown images */
 .img_node_modules-\@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module {

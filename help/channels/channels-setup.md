@@ -40,4 +40,3 @@ You can monitor task progress under **Manage > Data Sources**.
 
 ![Task Progress Screenshot](/img/help/data-sources.png)
 
-For more details, head over the to the Data Sources docs.

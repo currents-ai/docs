@@ -6,9 +6,9 @@ title: Create Reports
 
 # Create a Report
 
-You can create custom reports to visualize data and tell a story.
+You can create custom reports to visualize data.
 
-Here's a guide on how to create a new report.
+Here's a guide on how to create a new custom report.
 
 ### 1. Go to "Reports"
 
