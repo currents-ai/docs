@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /invite-users
+slug: /users
 ---
 
 # Invite Users
