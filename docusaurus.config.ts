@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'currents-ai', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'ignore', //'throw',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 

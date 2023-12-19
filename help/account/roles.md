@@ -1,18 +1,31 @@
 ---
-sidebar_position: 4
-slug: /user-roles
+sidebar_position: 3
+slug: /roles
 ---
 
-# User Roles - Members, Admins, Owners
+# Roles & Permissions 
 
 Currently, the platform supports three different user roles -
 1. Members
 2. Admins
 3. Owners
 
-Owners have the highest level of control over the platform, followed by Admins and Members. Typically, the user who created the account is assigned as the "owner". The owner can invite other teammates  as "Member" or "Admin" by using the "Invite Users" feature in the platform.
+**'Members'** 
+- have read-only access. 
+- cannot edit existing reports, bookmarks, etc. 
+- can create reports or bookmarks for themselves (for personal analysis), which is viewable only by them.
 
-Below is a table that enumerates the access control capabilities as it stands today -
+**'Admins'** 
+- have edit access. 
+- can create teams, reports, invite users, manage their team's resources (e.g reports, bookmarks), etc.
+
+**'Owners'** 
+- have the highest level of access 
+- e.g deactivating users, demoting 'admins', etc. 
+- typically, the user who created the account is assigned as the "owner".
+
+
+Below is a table that enumerates the permissions associated with various roles.
 
 | Feature                        | Member             | Admin             | Owner |
 |--------------------------------|--------------------|-------------------|-------|
