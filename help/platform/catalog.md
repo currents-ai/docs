@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-slug: /catalog-management
+slug: /catalog
 ---
 
 # Catalog Management 

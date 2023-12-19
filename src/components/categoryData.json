@@ -1,8 +1,8 @@
 {
   "account": {
     "header": "Account",
-    "subheader": "Articles on account and profile management.",
-    "icon": "img/icons/user.svg"
+    "subheader": "Manage account, users, teams and understand permissions.",
+    "icon": "img/icons/users.svg"
   },
   "channels": {
     "header": "Channels & Sources",
@@ -23,10 +23,5 @@
     "header": "Platform",
     "subheader": "Documentation on core platform features.",
     "icon": "img/icons/cpu-chip.svg"
-  },
-  "roles": {
-    "header": "Users, Teams & Roles",
-    "subheader": "Manage users, teams and understand permissions.",
-    "icon": "img/icons/users.svg"
   }
 }

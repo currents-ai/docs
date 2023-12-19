@@ -1,10 +1,29 @@
 ---
-sidebar_position: 5
-slug: /csv-download
+sidebar_position: 1
+slug: /data-export
 ---
 
-# CSV Download - Common Issues - FreeText AI Knowledge Base
-### **Excel CSV parsing issues on Windows**
+# Export Data 
+
+You can export / download raw data from FreeText AI. 
+
+## Export Raw Data
+
+Follow the steps below to export raw records and corresponding inferences (topics, sentiment, etc) -
+
+- Go to the 'Search' tab from the LHS menu navigation
+- Apply relevant filters 
+- Verify that the data is correct
+- Click on the download icon on the top-right of the page
+
+:::tip
+A maximum of 2000 rows can be downloaded at a time. So, apply necessary filters to download the data.
+:::
+
+
+## Known Issues
+
+### Excel CSV parsing issues on Windows
 
 A common issue with CSV parsing is that the delimiter character is incorrectly assumed. This happens especially in European versions of Excel. To get around this, instead of "opening" the CSV with Excel, we need to "import" the CSV.
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-slug: /advanced-query-operators
+slug: /search-operators
 ---
 
-# Advanced Query Operators
+# Advanced Search Operators
 
 ## Text Query Operators
 
