@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-slug: /create-widget 
+slug: /widgets 
 title: Create Widgets
 ---
 
