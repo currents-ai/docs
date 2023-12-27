@@ -107,7 +107,7 @@ const config: Config = {
           label: 'Help',
         },
         {
-          to: '/privacy/intro',    
+          to: '/privacy/cookies',    
           label: 'Privacy',
           position: 'left',
           activeBaseRegex: `/privacy`,
