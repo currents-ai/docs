@@ -1,9 +1,12 @@
 import React from "react"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import categoryData from './categoryData.json'
+import categoryData from "./categoryData.json"
+import { useColorMode } from "@docusaurus/theme-common"
 
 export default function Home() {
   const { globalData } = useDocusaurusContext()
+  const { colorMode } = useColorMode()
+  const isDarkMode = colorMode === "dark"
 
   const docs =
     globalData["docusaurus-plugin-content-docs"].default.versions[0].docs
@@ -13,12 +16,20 @@ export default function Home() {
   return (
     <div className="flex flex-wrap justify-center md:justify-start">
       {mainCategories.map((category) => {
-        return(
+        return (
           <div key={category.id} className="md:w-[47%] w-full m-2">
             <a className="pagination-nav__link h-full w-full" href={category.path}>
               <div className="flex h-full w-full items-center">
                 <div className="flex h-16 w-auto  mr-3">
-                  <img src={category.icon || "img/icons/table-cells.svg"} className="h-full w-full object-cover" alt="Logo" />
+                  <img
+                    src={
+                      isDarkMode
+                        ? category.icon.dark
+                        : category.icon.light || "img/icons/table-cells.svg"
+                    }
+                    className="h-full w-full object-cover"
+                    alt="Logo"
+                  />
                 </div>
                 <div className="flex-1 truncate">
                   <div className="font-semibold text-black dark:text-white">
