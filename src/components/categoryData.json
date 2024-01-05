@@ -1,27 +1,42 @@
-{
-  "account": {
-    "header": "Account",
-    "subheader": "Manage account, users, teams and understand permissions.",
-    "icon": "img/icons/users.svg"
-  },
-  "channels": {
-    "header": "Channels & Sources",
-    "subheader": "Basics, setup and management.",
-    "icon": "img/icons/table-cells.svg"
-  },
-  "reports": {
-    "header": "Reporting",
-    "subheader": "Charts and visualizations. Custom reports and templates.",
-    "icon": "img/icons/document-chart-bar.svg"
-  },
-  "metrics": {
-    "header": "Metrics",
-    "subheader": "Definitions, explanations and intuition behind different metrics.",
-    "icon": "img/icons/beaker.svg"
-  },
-  "platform": {
-    "header": "Platform",
-    "subheader": "Documentation on core platform features.",
-    "icon": "img/icons/cpu-chip.svg"
+  {
+    "account": {
+      "header": "Account",
+      "subheader": "Manage account, users, teams and understand permissions.",
+      "icon": {
+        "light": "img/icons/users.svg",
+        "dark": "img/icons/users-dark.svg"
+      }
+    },
+    "channels": {
+      "header": "Channels & Sources",
+      "subheader": "Basics, setup and management.",
+      "icon": {
+        "light": "img/icons/table-cells.svg",
+        "dark": "img/icons/table-cells-dark.svg"
+      }
+    },
+    "reports": {
+      "header": "Reporting",
+      "subheader": "Charts and visualizations. Custom reports and templates.",
+      "icon": {
+        "light": "img/icons/document-chart-bar.svg",
+        "dark": "img/icons/document-chart-bar-dark.svg"
+      }
+    },
+    "metrics": {
+      "header": "Metrics",
+      "subheader": "Definitions, explanations and intuition behind different metrics.",
+      "icon": {
+        "light": "img/icons/beaker.svg",
+        "dark": "img/icons/beaker-dark.svg"
+      }
+    },
+    "platform": {
+      "header": "Platform",
+      "subheader": "Documentation on core platform features.",
+      "icon": {
+        "light": "img/icons/cpu-chip.svg",
+        "dark": "img/icons/cpu-chip-dark.svg"
+      }
+    }
   }
-}
