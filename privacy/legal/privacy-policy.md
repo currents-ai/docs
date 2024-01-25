@@ -11,7 +11,7 @@ FreeText AI Pte. Ltd. ("us", "we", or "our") operates the [https://freetext.ai](
 
 We respect the privacy of anyone and everyone who uses the FreeText AI Site and/or Service. This Privacy & Cookie Policy (this "Policy") informs you of our policies with regards to the data we collect about you, how you use the site (the "Site") or FreeText AI service (the "Service"), how we store and use that data and the choices you have associated with that data.
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Terms used in this Privacy Policy will have the same meaning as in our [Terms of Use](/terms-of-use), unless otherwise defined in this Privacy Policy.
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Terms used in this Privacy Policy will have the same meaning as in our [Terms of Use](/privacy/terms-of-use), unless otherwise defined in this Privacy Policy.
 
 If you have shared your data with a FreeText AI client, and that FreeText AI client has shared your data with us, you should contact the FreeText AI client to review their privacy policy, and note that the provisions of paragraphs 2, 5, 6, 7, 8, 9, and 10 shall apply to the use of your personal data. In such and similar circumstances, we are the processor of your personal data and the FreeText AI client is the data controller.
 

@@ -8,7 +8,7 @@ slug: /terms-of-use
 
 **Last Revision:** December 2023
 
-This website (the **Website**) is owned and operated by FreeText AI Pte. Ltd., a company registered in Republic of Singapore with registration number 201818719N and registered office at 68 Circular Road, #02-01, Singapore (049422) ("us", "we", or "our"). By accessing and using the Website you agree to be bound by these terms of use (the **Terms**) together with our [Privacy & Cookie Policy](/privacy).
+This website (the **Website**) is owned and operated by FreeText AI Pte. Ltd., a company registered in Republic of Singapore with registration number 201818719N and registered office at 68 Circular Road, #02-01, Singapore (049422) ("us", "we", or "our"). By accessing and using the Website you agree to be bound by these terms of use (the **Terms**) together with our [Privacy & Cookie Policy](/privacy/privacy-policy).
 
 These Terms affect your legal obligations and rights, so please read them carefully. If you do not agree to be bound by these Terms, do not access, signup, or use the Website. If you have any questions, please [contact us](https://freetext.ai/contact).
 
