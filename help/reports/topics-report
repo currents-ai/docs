@@ -31,7 +31,6 @@ The Topics Table provides a clear view of customer sentiment for your chosen pro
 | **Impact Score**        	| Indicates the extent to which a specific topic has influenced the overall customer sentiment.                                                                                                                                           	|
 | **Impact Score(eCommerce)** | Measures how a topic affects the Average Star Rating of a product. It shows the positive or negative impact (in stars) of each topic on the rating.                                                                                     	|
 
-\
 
 
 The bar chart shows the breakdown of positive and negative feedback.
