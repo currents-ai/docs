@@ -13,13 +13,13 @@ The Topics Table provides a breakdown of customer sentiment (Positive, Negative,
 
 - Click on **“Select Entity”** to select the source from the search model.
 
-![select-entity](/static/img/help/reports/topic-reports/select-entity.png)
+![select-entity](/img/help/reports/topic-reports/select-entity.png)
 
 ## **Search Model**
 
 Search for the specific source you want to analyze by entering a name or keyword in the search bar, browsing by category and channel, or exploring all sources under the "All" tab. Further refine your selection by entity (individual SKUs or variant groups), brands, or user-created groups using the corresponding tabs. Select the desired source.
 
-![search-model](/static/img/help/reports/topic-reports/search-model.png)
+![search-model](/img/help/reports/topic-reports/search-model.png)
 
 ## **Key Elements of the Topics Table**
 
@@ -38,7 +38,7 @@ The Topics Table provides a clear view of customer sentiment for your chosen sou
 | Impact Score(eCommerce) |                                          	Measures how a topic affects the Average Star Rating of a product. It shows the positive or negative impact (in stars) of each topic on the rating.                                          	|
 |    	Bar Graph    	|                                                                                        	Shows the breakdown of positive and negative feedback.                                                                                         	|
 
-![topics-table](/static/img/help/reports/topic-reports/topics-table.png)
+![topics-table](/img/help/reports/topic-reports/topics-table.png)
 
 ## **Functionality and Features**
 
@@ -46,7 +46,7 @@ The Topics Table provides a clear view of customer sentiment for your chosen sou
 
 Clicking on column headers toggles sorting between ascending and descending order.
 
-![sorting](/static/img/help/reports/topic-reports/sorting.png)
+![sorting](/img/help/reports/topic-reports/sorting.png)
 
 ### **Search & Filtering Options**
 
@@ -54,17 +54,17 @@ Clicking on column headers toggles sorting between ascending and descending orde
 
 - Use **“Filters”** to select timeframes and analyze trends over specific periods like daily, weekly, monthly, or custom date ranges. Additionally, the filters provide various options for refining the data further.
 
-![search-filters](/static/img/help/reports/topic-reports/search-filters.png)
+![search-filters](/img/help/reports/topic-reports/search-filters.png)
 
 ### **Drill Down into Topic Reviews**
 
 Clicking a topic or phrase within the Topics Table opens a window on the right-hand side (RHS) with all the reviews that mention the selected topic or contain the chosen phrase.
 
-![reviews-rhs](/static/img/help/reports/topic-reports/reviews-rhs.png)
+![reviews-rhs](/img/help/reports/topic-reports/reviews-rhs.png)
 
 Clicking a  review opens a pop-up window displaying the complete review text and topics related to it. Additionally, the date the review was submitted is shown on the right-hand side (RHS) of the window. Add or remove topics by clicking on the edit icon.
 
-![review](/static/img/help/reports/topic-reports/review.png)
+![review](/img/help/reports/topic-reports/review.png)
 
 ### **Comments**
 
@@ -84,7 +84,7 @@ Users can access specific subsets of reviews by clicking on the following tabs:
 
 Use the dropdown menu to sort reviews by sentiment, recent, or popularity.
 
-![comments](/static/img/help/reports/topic-reports/comments.png)
+![comments](/img/help/reports/topic-reports/comments.png)
 
 ### **Stats**
 
@@ -95,13 +95,13 @@ This section provides insights for your chosen topic or phrase with various grap
 - **Mentions Compared to All Records:** This graph compares the number of mentions to the total number of records, to gauge its relative importance compared to other topics.
 - **Match Percentage in Each Time Period:** This graph shows the percentage of records within each time frame (daily, weekly, etc.) that mention the selected topic or phrase.
 
-![stats](/static/img/help/reports/topic-reports/stats.png)
+![stats](/img/help/reports/topic-reports/stats.png)
 
 ### **Bookmark & Download**
 
 You can bookmark the report for easy access from the homepage and download it as CSV or PPT for further analysis.
 
-![bookmark](/static/img/help/reports/topic-reports/bookmark-download.png)
+![bookmark](/img/help/reports/topic-reports/bookmark-download.png)
 
 
 
