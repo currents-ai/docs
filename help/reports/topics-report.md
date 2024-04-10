@@ -13,7 +13,7 @@ The Topics Table provides a breakdown of customer sentiment (Positive, Negative,
 
 - Click on **“Select Entity”** to select the source from the search model.
 
-![select-entity](/static/img/help/reports/topic-reports/select-entity.png)
+![select-entity](../static/img/help/reports/topic-reports/select-entity.png)
 
 ## **Search Model**
 
