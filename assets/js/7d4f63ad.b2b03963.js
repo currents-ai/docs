@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[7894],{8561:s=>{s.exports=JSON.parse('{"title":"Metrics","slug":"metrics","permalink":"/docs/metrics","navigation":{"previous":{"title":"topics-report","permalink":"/docs/reports/topics-report"},"next":{"title":"Customer Satisfaction Metrics","permalink":"/docs/customer-satisfaction-metrics"}}}')}}]);
