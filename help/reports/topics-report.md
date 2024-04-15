@@ -1,5 +1,8 @@
+---
+sidebar_position: 5
 slug: /topics-report
-
+title: Topics Report
+---
 
 # **Topics Report**
 
@@ -8,16 +11,12 @@ The Topics Table provides a breakdown of customer sentiment (Positive, Negative,
 ## **Accessing the Topics Report**
 
 - Go to **“Reports”**.
-
 - Click on the **“Topics Table”** from the list of reports on the left-hand side (LHS) panel.
-
 - Click on **“Select Entity”** to select the source from the search model.
 
 ![select-entity](/img/help/reports/topic-reports/select-entity.png)
 
-## **Search Model**
-
-Search for the specific source you want to analyze by entering a name or keyword in the search bar, browsing by category and channel, or exploring all sources under the "All" tab. Further refine your selection by entity (individual SKUs or variant groups), brands, or user-created groups using the corresponding tabs. Select the desired source.
+- Search for the specific source you want to analyze by entering a name or keyword in the search bar, browsing by category and channel, or exploring all sources under the "All" tab. Further refine your selection by entity (individual SKUs or variant groups), brands, or user-created groups using the corresponding tabs. Select the desired source.
 
 ![search-model](/img/help/reports/topic-reports/search-model.png)
 
@@ -34,8 +33,8 @@ The Topics Table provides a clear view of customer sentiment for your chosen sou
 |  	Negative Count 	|                                         	The number of records where the topic is mentioned in a negative context. It helps identify areas of concern or dissatisfaction related to the topic.                                         	|
 | 	Questions Count 	|                                            	The number of records containing questions related to each topic. It highlights topics that generate inquiries or require further clarification.                                           	|
 | 	Suggestion Count	|                                                     	This represents the number of customer feedback instances that include suggestions or improvement ideas related to the topic.                                                     	|
-|   	Impact Score  	|                                                                     	Indicates the extent to which a specific topic has influenced the overall customer sentiment.                                                                     	|
-| Impact Score(eCommerce) |                                          	Measures how a topic affects the Average Star Rating of a product. It shows the positive or negative impact (in stars) of each topic on the rating.                                          	|
+|   	[Impact Score](../metrics/sentiment-impact-score.md)  	|                                                                     	Indicates the extent to which a specific topic has influenced the overall customer sentiment.                                                                     	|
+| [Impact Score(eCommerce)](../metrics/star-rating-impact-score.md) |                                          	Measures how a topic affects the Average Star Rating of a product. It shows the positive or negative impact (in stars) of each topic on the rating.                                          	|
 |    	Bar Graph    	|                                                                                        	Shows the breakdown of positive and negative feedback.                                                                                         	|
 
 ![topics-table](/img/help/reports/topic-reports/topics-table.png)
@@ -51,7 +50,6 @@ Clicking on column headers toggles sorting between ascending and descending orde
 ### **Search & Filtering Options**
 
 - The **search** bar allows users to search for specific topics or phrases.
-
 - Use **“Filters”** to select timeframes and analyze trends over specific periods like daily, weekly, monthly, or custom date ranges. Additionally, the filters provide various options for refining the data further.
 
 ![search-filters](/img/help/reports/topic-reports/search-filters.png)
