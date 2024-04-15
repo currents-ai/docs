@@ -1,5 +1,8 @@
+---
+sidebar_position: 5
 slug: /topics-report
-
+title: Topics Report
+---
 
 # **Topics Report**
 
@@ -8,16 +11,12 @@ The Topics Table provides a breakdown of customer sentiment (Positive, Negative,
 ## **Accessing the Topics Report**
 
 - Go to **“Reports”**.
-
 - Click on the **“Topics Table”** from the list of reports on the left-hand side (LHS) panel.
-
 - Click on **“Select Entity”** to select the source from the search model.
 
 ![select-entity](/img/help/reports/topic-reports/select-entity.png)
 
-## **Search Model**
-
-Search for the specific source you want to analyze by entering a name or keyword in the search bar, browsing by category and channel, or exploring all sources under the "All" tab. Further refine your selection by entity (individual SKUs or variant groups), brands, or user-created groups using the corresponding tabs. Select the desired source.
+- Search for the specific source you want to analyze by entering a name or keyword in the search bar, browsing by category and channel, or exploring all sources under the "All" tab. Further refine your selection by entity (individual SKUs or variant groups), brands, or user-created groups using the corresponding tabs. Select the desired source.
 
 ![search-model](/img/help/reports/topic-reports/search-model.png)
 
@@ -51,7 +50,6 @@ Clicking on column headers toggles sorting between ascending and descending orde
 ### **Search & Filtering Options**
 
 - The **search** bar allows users to search for specific topics or phrases.
-
 - Use **“Filters”** to select timeframes and analyze trends over specific periods like daily, weekly, monthly, or custom date ranges. Additionally, the filters provide various options for refining the data further.
 
 ![search-filters](/img/help/reports/topic-reports/search-filters.png)
