@@ -1,8 +1,11 @@
-—
+---
+sidebar_position: 6
 slug: /filters
 Title: Filters
-—
+---
 # **Filters**
+
+## **Common Filters**
 
 ### **Time**
 
@@ -30,11 +33,6 @@ This filter displays all the available channels where the product is listed. you
 
 ### **Topics**
 This filter provides a list of topics(recurring themes in reviews) associated with the product. Choose one or more topics for analysis.
-
-### **Price**
-To analyze reviews by price (in local currency), input minimum or maximum values, or use the slider to set your desired price range.
-
-![price](/img/help/reports/filters/price.png)
 
 ### **Record Sentiment**
 This filter enables the selection of records based on customer sentiment toward your product.
@@ -66,19 +64,11 @@ Don’t Split Group (Selected)
 
 ![don't-split-group-selected](/img/help/reports/filters/don't-split-group-selected.png)
 
-### **Sub-Category**
-This filter allows users to analyze reviews specific to each subcategory. For example, within the category of Electronics, subcategories could include Smartphones, Laptops, or Headphones, and more.
-
 ### **Country**
 This filter lets you analyze reviews from specific regions.
 
 ### **Entity**
 This filter allows you to select individual SKUs for analysis.
-
-### **Price(USD)**
-To analyze reviews by price (normalized to USD), input minimum or maximum values, or use the slider to set your desired price range.
-
-![price-usd](/img/help/reports/filters/price-usd.png)
 
 ### **Record Count**
 This filter allows users to analyze the data based on the volume of reviews. Input minimum or maximum values, or use the slider to set your desired range.
@@ -91,10 +81,7 @@ These are reviews with lower reliability, accuracy, or relevance compared to oth
 ### **Others Bucket**
 When enabled, this contains all the reviews that are not categorized under any of the existing topics. By default, it is not enabled.
 
-### **Brands**
-This filter enables users to refine their analysis by selecting specific brands.
-
-## **eCommerce**
+## **eCommerce Filters**
 
 ### **Star Rating**
 
@@ -112,6 +99,11 @@ This filter lets you choose the type of record you want to analyze.
 - **Reviews:** Customer feedback provided on eCommerce platforms.
 - **Questions:** Questions asked by customers in the Q\&A section of eCommerce sites.
 
+### **Price**
+To analyze reviews by price (in local currency), input minimum or maximum values, or use the slider to set your desired price range.
+
+![price](/img/help/reports/filters/price.png)
+
 ### **Syndicated Review**
 These are customer reviews that get republished across different websites. For example, brands can share reviews with retailers, or review platforms can distribute them to retailers, increasing their visibility for shoppers. To maintain transparency, retailers typically label such reviews as "syndicated reviews." By default, these reviews are included in analyses. If you want to exclude syndicated reviews from your analysis, select “Syndicated Reviews” as False.
 
@@ -123,5 +115,17 @@ Use this filter to analyze records based on whether the brand responded to custo
 
 ### **Brand Marketplace**
 This filter allows users to refine their analysis by selecting a specific marketplace where the brand's products or services are sold.
+
+### **Sub-Category**
+This filter allows users to analyze reviews specific to each subcategory. For example, within the category of Electronics, subcategories could include Smartphones, Laptops, or Headphones, and more.
+
+### **Price(USD)**
+To analyze reviews by price (normalized to USD), input minimum or maximum values, or use the slider to set your desired price range.
+
+![price-usd](/img/help/reports/filters/price-usd.png)
+
+### **Brands**
+This filter enables users to refine their analysis by selecting specific brands.
+
 
 
