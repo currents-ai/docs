@@ -1,3 +1,10 @@
+---
+sidebar_position: 1
+slug: /compare
+title: Compare
+---
+
+
 # **Compare**
 
 This feature enables users to compare and contrast trends and insights.You can conduct side-by-side comparisons of products, entities, or data sources across various brands, marketplaces, and geographical locations. With support for up to 10 data sources, users can identify patterns and opportunities for improvement, facilitating informed decision-making and strategic planning.
