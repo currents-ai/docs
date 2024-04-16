@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 slug: /filters
-Title: Filters
+title: Filters
 ---
 # **Filters**
 
