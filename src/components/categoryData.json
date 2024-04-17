@@ -38,5 +38,13 @@
       "light": "img/icons/cpu-chip.svg",
       "dark": "img/icons/cpu-chip-dark.svg"
     }
-  }
+  },
+  "guides":{
+    "header":"Guides",
+    "subheader": "How-to guides for analysis.",
+    "icon":{
+      "light: "img/icons/guide.svg",
+      "dark": "img/icons/guide-dark.svg"
+    }
+  }  
 }
