@@ -40,10 +40,10 @@
     }
   },
   "guides":{
-    "header":"Guides",
+    "header": "Guides",
     "subheader": "How-to guides for analysis.",
     "icon":{
-      "light: "img/icons/guide.svg",
+      "light": "img/icons/guide.svg",
       "dark": "img/icons/guide-dark.svg"
     }
   }  
