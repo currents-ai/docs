@@ -16,7 +16,7 @@ In this example, the pivot table summarizes the total sales for each product acr
 
 ## Building a Pivot Table on Freetext.AI
 
-Similarly, in Freetext.ai, you can build pivot tables to summarize customer feedback. Start by selecting the data you want to analyze, then choose how to categorize it with Row and Column Dimensions and what information to highlight (metrics). For detailed instructions on how to add a pivot table to a new report, visit the[ ](https://spotlight-docs.lexalytics.com/docs/widget-groups)Create Widget section of our documentation.
+Similarly, in Freetext.ai, you can build pivot tables to summarize customer feedback. Start by selecting the data you want to analyze, then choose how to categorize it with Row and Column Dimensions and what information to highlight (metrics). For detailed instructions on how to add a pivot table to a new report, visit the [Create Widget](/reports/widgets.md) section of our documentation.
 
 ### Dimensions
 
