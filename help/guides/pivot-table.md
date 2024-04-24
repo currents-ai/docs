@@ -1,3 +1,9 @@
+---
+sidebar_position: 2
+slug: /pivot-table
+title: How to use the Pivot Table Widget
+---
+
 # How to use the Pivot Table Widget
 
 ## Introduction to Pivot Table
