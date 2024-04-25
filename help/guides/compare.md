@@ -23,7 +23,7 @@ To add more products click on “select product”. You can add up to 10 product
 
 Represents the total number of reviews associated with each product.
 
-### [**CSAT Rating**](../metrics/customer-satisfaction-metrics.md# Customer Satisfaction Score (CSAT))
+### [**CSAT Rating**](/metrics/customer-satisfaction-metrics.md#customer-satisfaction-score-csat)
 
 Measures customer satisfaction with a product or service based on their recent experiences.
 
@@ -41,7 +41,7 @@ The graph compares the volume of reviews over time for multiple products, allowi
 
 The graph provides a visual comparison of CSAT ratings among various products over time. The X-axis denotes years, while the Y-axis represents CSAT ratings.
 
-![csat-trend]
+![csat-trend](/img/help/guides/compare/csat-trend.png)
 
 ### **Star Rating Trend**
 
