@@ -23,7 +23,7 @@ To add more products click on “select product”. You can add up to 10 product
 
 Represents the total number of reviews associated with each product.
 
-### [**CSAT Rating**](../metrics/customer-satisfaction-metrics.md# Customer Satisfaction Score (CSAT))
+### [**CSAT Rating**](/metrics/customer-satisfaction-metrics.md#csat)
 
 Measures customer satisfaction with a product or service based on their recent experiences.
 
