@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 7
 slug: /chart-types
 title: Chart Types
 ---
