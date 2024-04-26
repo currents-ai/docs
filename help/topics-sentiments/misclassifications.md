@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /fix-misclassifications
+slug: /misclassifications
 title: How to fix Topic-Sentiment Misclassifications
 ---
 # How to fix Topic-Sentiment Misclassifications
