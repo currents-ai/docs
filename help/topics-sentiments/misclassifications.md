@@ -14,4 +14,4 @@ To edit topic-sentiment misclassifications:
 - Save your changes after adding/removing the appropriate topics.
 - Refresh the page to see the updated topic-sentiment classifications for that feedback.
 
-![review-tab](/img/help/topics&sentiments/review-tab.png)
+![review-tab](/img/help/topics-sentiments/review-tab.png)
