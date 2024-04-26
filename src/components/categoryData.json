@@ -46,5 +46,13 @@
       "light": "img/icons/guide.svg",
       "dark": "img/icons/guide-dark.svg"
     }
+  },
+  "topics-sentiments":{
+    "header": "Topics & Sentiments",
+    "subheader": "Unlocking Customer Insights.",
+    "icon":{
+      "light": "img/icons/topic-sentiment.svg",
+      "dark": "static/img/icons/topic-sentiment-dark.svg"
+    }
   }  
 }
