@@ -1,4 +1,9 @@
-# How to Fix Topic-Sentiment Misclassifications
+---
+sidebar_position: 1
+slug: /fix-misclassifications
+title: How to fix Topic-Sentiment Misclassifications
+---
+# How to fix Topic-Sentiment Misclassifications
 
 Sometimes, the AI may incorrectly classify aspects of feedback. This guide explains how to manually edit and correct any misclassifications.
 
