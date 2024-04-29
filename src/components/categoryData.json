@@ -52,7 +52,7 @@
     "subheader": "Unlocking Customer Insights.",
     "icon":{
       "light": "img/icons/topic-sentiment.svg",
-      "dark": "static/img/icons/topic-sentiment-dark.svg"
+      "dark": "img/icons/topic-sentiment-dark.svg"
     }
   }  
 }
