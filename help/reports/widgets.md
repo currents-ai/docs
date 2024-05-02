@@ -30,7 +30,6 @@ Here's a guide on how to create widgets.
 
 ## Add chart Widgets:
 
-
 ### 1. Click on "Add Widget"
 
 Click on the "Add Widget" button in the center of the page. This will open a modal with all the existing widgets that can be added to the report.
