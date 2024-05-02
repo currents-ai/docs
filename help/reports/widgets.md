@@ -26,7 +26,7 @@ Here's a guide on how to create widgets.
 
 3. For Filter Widget: Choose required filters from the "Create Filter Widget" dialog. 
 
-![edit](img/help/reports/widgets/edit.png)
+![edit](/img/help/reports/widgets/edit.png)
 
 ## Add chart Widgets:
 
