@@ -34,6 +34,8 @@ Row and column dimensions categorize and organize data hierarchically, based on 
 
 Metrics are numerical measurements that represent different aspects of business. They provide specific data points like Records Count, product ratings, customer satisfaction score, Impact Score, etc. Each cell presents the metric value corresponding to the specific combination of categories defined by the row and column dimensions. You can select up to 3 metrics.
 
+To learn more about each dimension and metric, go to [Metrics & Dimensions.](/metrics/index.md)
+
 ![create-pivot](/img/help/guides/pivot-table/create-pivot-table.png)
 
 ### Filters
