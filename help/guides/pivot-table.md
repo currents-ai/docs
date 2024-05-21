@@ -28,11 +28,11 @@ Similarly, in Freetext.ai, you can build pivot tables to summarize customer feed
 
 Dimensions are characteristics that add context to your metrics. They help categorize and group data for analysis. Dimensions can be time, geographical location, product categories, customer segments, or marketing channels. Select dimensions to break down your metrics into categories.
 
-Row and column dimensions categorize and organize data hierarchically, based on selected categories, with the option to select up to four categories for each dimension. The row dimensions create groupings or partitions of the data, while column dimensions create sub groupings within those row groups. 
+Row and column dimensions categorize and organize data hierarchically, based on selected categories, with the option to select up to six categories for each dimension. The row dimensions create groupings or partitions of the data, while column dimensions create sub groupings within those row groups. 
 
 ### Metrics
 
-Metrics are numerical measurements that represent different aspects of business. They provide specific data points like Records Count, product ratings, customer satisfaction score, Impact Score, etc. Each cell presents the metric value corresponding to the specific combination of categories defined by the row and column dimensions. You can select up to 3 metrics.
+Metrics are numerical measurements that represent different aspects of business. They provide specific data points like Records Count, product ratings, customer satisfaction score, Impact Score, etc. Each cell presents the metric value corresponding to the specific combination of categories defined by the row and column dimensions. You can select up to 6 metrics.
 
 To learn more about each dimension and metric, go to [Metrics & Dimensions.](/metrics/index.md)
 
