@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4374],{6548:e=>{e.exports=JSON.parse('{"title":"Topics & Sentiments","slug":"topics-sentiments","permalink":"/docs/topics-sentiments","navigation":{"previous":{"title":"Zendesk","permalink":"/docs/zendesk"},"next":{"title":"Manage Topics","permalink":"/docs/manage-topics"}}}')}}]);
