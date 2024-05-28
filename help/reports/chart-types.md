@@ -84,7 +84,7 @@ For more details, go to [How to use the Pivot Table Widget.](/guides/pivot-table
 
 The Topics Table provides a breakdown of customer sentiment (Positive, Negative, Neutral, Questions, Suggestions) categorized by various topics (specific things customers talk about in their feedback). This helps you understand what aspects of your product or service are most appealing to your customers and where there might be areas for improvement.
 
-For more details, go to [Topics Report.](/reports/topics-report.md)
+For more details, go to [Topics Report.](/topics-sentiments/topics-report.md)
 
 # Design Elements
 
