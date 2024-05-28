@@ -15,6 +15,14 @@
       "dark": "img/icons/table-cells-dark.svg"
     }
   },
+  "topics-sentiments":{
+    "header": "Topics & Sentiments",
+    "subheader": "Unlocking Customer Insights.",
+    "icon":{
+      "light": "img/icons/topic-sentiment.svg",
+      "dark": "img/icons/topic-sentiment-dark.svg"
+    }
+  },
   "reports": {
     "header": "Reporting",
     "subheader": "Charts and visualizations. Custom reports and templates.",
@@ -46,13 +54,5 @@
       "light": "img/icons/guide.svg",
       "dark": "img/icons/guide-dark.svg"
     }
-  },
-  "topics-sentiments":{
-    "header": "Topics & Sentiments",
-    "subheader": "Unlocking Customer Insights.",
-    "icon":{
-      "light": "img/icons/topic-sentiment.svg",
-      "dark": "img/icons/topic-sentiment-dark.svg"
-    }
-  }  
+  }
 }
