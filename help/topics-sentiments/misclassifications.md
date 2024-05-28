@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 slug: /misclassifications
 title: How to fix Topic-Sentiment Misclassifications
 ---
