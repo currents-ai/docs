@@ -28,7 +28,9 @@ To download raw customer feedback data or metadata, follow these steps
 
 The download will contain both the customer feedback text as well as the metadata about the feedback, such as date, author, channel, etc.
 
-Note: Up to 10,000 entries can be downloaded per CSV. For larger datasets, use date range filters to download in batches.
+:::tip
+Up to 10,000 entries can be downloaded per CSV. For larger datasets, use date range filters to download in batches.
+:::
 
 ![download-feedback](/img/help/guides/export-data/search.png)
 
@@ -92,4 +94,22 @@ This view will enable you to see how product ratings and prices fluctuate over t
 ![rating-price](/img/help/guides/export-data/rating-price.png)
 
 By following these examples, you can create various data views tailored to your specific analysis needs, combining different dimensions and metrics. 
+
+## Known Issues
+
+### Excel CSV parsing issues on Windows
+
+A common issue with CSV parsing is that the delimiter character is incorrectly assumed. This happens especially in European versions of Excel. To get around this, instead of "opening" the CSV with Excel, we need to "import" the CSV.
+
+For Office Windows -
+
+1.  Open a new spreadsheet.
+2.  Then,
+    1.  (For Office 2010 - Office 2016) Go the Data tab, in the Get & Transform Data group, click From Text/CSV 
+    2.  (For Newer versions) Click File > Options > Data. Under Show legacy data import wizards, select From Text (Legacy)
+3.  In the Import Data dialog box, locate and double-click the text file that you want to import. Select "Original data type" as "Delimited". Click Import.
+4.  **Choose "," as the Delimiter character to use**
+5.  Import the data your sheet
+
+(More details [here](https://support.microsoft.com/en-us/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857#ID0EBBJ=Newer_versions))
 
