@@ -33,7 +33,7 @@ To download raw customer feedback data or metadata, follow these steps
 The download will contain both the customer feedback text as well as the metadata about the feedback, such as date, author, channel, etc.
 
 :::tip
-Up to 10,000 entries can be downloaded per CSV. For larger datasets, use date range filters to download in batches.
+Up to 50,000 entries can be downloaded per CSV. For larger datasets, use date range filters to download in batches.
 :::
 
 ![download-feedback](/img/help/platform/search.png)
