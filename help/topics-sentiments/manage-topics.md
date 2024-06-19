@@ -35,16 +35,20 @@ Click on the ‘**Add Topic**’ button in the top right corner to create a topi
 
 - **Topic Name:** Enter a name for the topic you want to create. This should be a concise, descriptive title.
 
-- **Topic Description:** Enter a brief description of the topic. This helps to provide context and detail about what the topic covers.For example, Topic description for topic ‘Battery’ can be ‘This topic assesses the laptop’s battery life, charging speed, and any issues related to battery performance.’
+- **Topic Description:** Enter a brief description of the topic. This helps to provide context and detail about what the topic covers.  
 
->**Best Practices:**
+  For example, Topic description for topic ‘Battery’ can be ‘This topic assesses the laptop’s battery life, charging speed, and any issues related to battery performance.’
+
+>Best Practices:
 >- Be clear and specific about the scope of the topic.
 >- Incorporate terms that are closely associated with the topic.
 >- Keep the description concise and focused.
 
-* **Negative Topic Description:** Enter descriptions or aspects that are not relevant to your topic. This helps the AI model to exclude irrelevant content. For example, the non-topic description for ‘Battery’ can be, ‘ Topics not related to battery like keyboard, packaging, shipping experiences, etc.’
+* **Negative Topic Description:** Enter descriptions or aspects that are not relevant to your topic. This helps the AI model to exclude irrelevant content.  
 
->**Best Practices:**
+  For example, the non-topic description for ‘Battery’ can be, ‘ Topics not related to battery like keyboard, packaging, shipping experiences, etc.’
+
+>Best Practices:
 >- Clearly specify what aspects are considered unrelated to the topic.
 >- Provide clear examples of what is not included.
 
@@ -133,7 +137,7 @@ Update the product data to reflect the newly created topics:
 
 ### **10. Add and Validate Test Cases**
 
-- Navigate to ****‘**Manage > Topics**’
+- Navigate to ‘**Manage > Topics**’
 
 - Click the ‘**Edit**’ button next to the topic you want to add the test cases to.
 
@@ -195,7 +199,7 @@ To update an existing topic, follow these steps:
 
 - Navigate to ‘**Manage** > **Topics**’ from the left-hand navigation bar.
 
-- Find the topic you want to update, click the ‘**vertical ellipsis**’⋮ button next to it, and select ‘**Edit Topic**’**🖉** .
+- Find the topic you want to update, click the ‘**vertical ellipsis**’ **⋮** button next to it, and select ‘**Edit Topic**’**🖉** .
 
 ![edit-topic](/img/help/topics-sentiments/manage-topics/edit-topic.png)
 
@@ -213,7 +217,7 @@ To delete an existing topic, follow these steps:
 
 - Click on ‘**Manage**’ from the left-hand navigation bar and select ‘**Topics**’.
 
-- Find the topic you want to update, click the ‘**vertical ellipsis**’ ****⋮ button next to it, and select ‘**Delete Topic**’ **🗑**.
+- Find the topic you want to update, click the ‘**vertical ellipsis**’ **⋮** button next to it, and select ‘**Delete Topic**’ **🗑**.
 
 ![delete-topic](/img/help/topics-sentiments/manage-topics/delete-topic.png)
 
