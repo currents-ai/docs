@@ -36,9 +36,7 @@ Sentiment Score allows brands and businesses to gauge the prevailing customer se
 
 The Sentiment Score is calculated using the following formula:
 
-**Sentiment Score = ((pos count − neg count) / (pos count + neg count + neu count)) × 100%**
-
-(normalized to 0 - 100)
+**Sentiment Score = ((pos count − neg count) / (pos count + neg count + neu count))**
 
 Where:
 
@@ -46,7 +44,11 @@ pos count = Number of positive mentions or feedback.
 <br/>neg count = Number of negative mentions or feedback.
 <br/>neu count = Number of neutral mentions or feedback.
 
-The score is normalized to a range of 0 - 100% instead of -100% to 100% to ensure it's straightforward and easy to comprehend.
+The Sentiment Score ranges from -1 to 1, where -1 represents the most negative sentiment, 0 represents neutral sentiment, and 1 represents the most positive sentiment.
+
+To normalize the Sentiment Score to a 0 - 100% scale for easier comprehension, we use the following formula:
+
+**Sentiment Score Percentage = (Sentiment Score + 1) / 2 × 100%**
 
 ## How to Interpret the Sentiment Score?
 
