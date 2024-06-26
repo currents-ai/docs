@@ -77,7 +77,7 @@ From the filters section, apply relevant filters. For e.g if you're visualizing 
 
 Give the widget a unique, descriptive name.
 
-#### 3e. Metrics & Dimensions
+#### 3e. [Metrics & Dimensions](/metrics/index.md)
 
 Once you've picked data sources and applied filters, you need to pick the metrics and dimensions to create the visualization.
 
