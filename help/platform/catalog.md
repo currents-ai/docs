@@ -96,6 +96,46 @@ To change the category from  _Keyboard_ to _Mouse_, change _All, Input Devi
 
 * * *
 
+#### How to add "Alternate Name" to an entity?
+
+The default product name is determined from the marketplace. This is available in the CSV under the "Name" column. You cannot change the primary name.
+
+If you want to change the display name of the product, you can add the updated name in the "Alternate Name" column. This is currently used in certain shortlisted visualizations only, and will be extended to all graphs, tables and visualizations.
+
+:::tip
+If you just want to add a searchable nickname, you can add it to "Search Terms".
+:::
+
+* * *
+
+#### What are “Catalog Labels”? How to add these to an entity?
+
+Catalog Labels are additional filters that you can define and add to a CSV file. They provide a way to categorize products based on specific criteria that may not be included in the original metadata.These filters are in the form of key-value pairs, where the key represents the filter name, and the value represents an option within that filter. They will be added as filters in the tool after the source is refreshed.
+
+**How to Add “Catalog Labels” to a CSV File**
+
+- Download the CSV file you want to update.
+
+- Open the file using a spreadsheet application.
+
+- Add a new column to the CSV file and name it ‘Catalog Labels’.
+
+- In the ‘Catalog Label’ column, enter key-value pairs for each product row you want to label. The format for entering key-value pairs should be key:value. For example, retailer:’small’. You can add multiple key-value pairs for each product by separating them with a comma (,). For example, retailer:’small’,segment:’urban’ .
+
+- You can add Catalog Labels to all products or only specific products of your choice.
+
+- After adding the Catalog Labels, save the modified CSV file and upload it back.
+
+- Once uploaded and refreshed, the Catalog Labels will be available as filters within the tool.
+
+* * *
+
+#### How to change the specifications of an entity?
+
+To update the product specifications in a CSV file, look for columns with the ‘Spec:’ prefix, such as ‘Spec:Price’ , ’Spec:Country’, etc. These columns contain default data from the marketplace. To change the specifications, overwrite the existing entry with the new specification. Ensure the data format matches the platform’s requirements.
+
+* * *
+
 #### What are "Search Terms"? How to add searchable terms to an entity?
 
 Search Terms are additional terms that can be added as meta-data for an entity. These terms can then be used for searching for that entity.
@@ -111,6 +151,30 @@ The Cross Marketplace Id is used to reconcile the same products across different
 Note - the "Cross Marketplace Ids" can only contain alphabets, numbers, dashes ("-") or underscores ("\_"). It should NOT include spaces.
 
 You can change this reconciliation by editing the "Cross Marketplace Ids" column in the CSV.
+
+* * *
+
+#### What is “User Source”? How to Change “User Source Names” and “User Source Ids” of an entity?
+
+User Source refers to custom groups created by users to organize and classify entities.
+
+**How to Change “User Source Names” and “User Source Ids” in the CSV**
+
+“User Source Names” represent groups created by the user, while “User Source Ids” represent unique identifiers for those groups.
+
+"User Source Names" column can be used to combine multiple products to create a data source.
+
+For example, if you want to create a data source with 5 products, simply add the same source name for all 5 products in the "Source Name" column.
+
+To change a product's group id, overwrite the entry in the “User Source Ids” column with the new group id.
+
+:::tip
+You can add multiple comma separated source names to the "Source Names" column.
+:::
+
+:::note
+Source Names created using the catalog cannot be managed from the "Manage - Data Sources" page and can only be edited using the catalog.
+:::
 
 * * *
 
