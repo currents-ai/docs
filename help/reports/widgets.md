@@ -12,11 +12,12 @@ Here's a guide on how to create widgets.
 
 ## Available Widget Types:
 
-|               |                                                                                                                                                                  |
-| :-----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  Text Widget  | Allows you to add descriptive text elements to provide context or instructions within your report. Pressing the '/' key reveals more options to format the text. |
-| Filter Widget | Allows you to add filters to all the widgets within the report. You can only add Filter Widget after you've added at least one other widget to your report.      |
-| Chart Widgets | Allows you to create visual representations of your data using various chart types.                                                                              |
+|                |                                                                                                                                                                  |
+| :------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   Text Widget  | Allows you to add descriptive text elements to provide context or instructions within your report. Pressing the '/' key or selecting text reveals more options to format the text. |
+|  Filter Widget | Allows you to add filters to all the widgets within the report. You can only add Filter Widget after you've added at least one other widget to your report.      |
+|  Chart Widgets | Allows you to create visual representations of your data using various chart types.                                                                              |
+| Compare Widget | Allows you to visually compare multiple products side-by-side using existing graph widgets within the template report.                                           |
 
 ## Add Text widget or Filter Widget:
 
@@ -27,6 +28,48 @@ Here's a guide on how to create widgets.
 3. For Filter Widget: Choose required filters from the "Create Filter Widget" dialog. 
 
 ![edit](/img/help/reports/widgets/edit.png)
+
+## Add Compare Widget:
+1. Open the template report you wish to edit.
+
+2. Click on the “Edit” button.
+
+3. Click the down arrow next to “Add Widget” and select “Compare Widget”.
+
+4. The Compare Widget will be added, with the current product pre-selected.
+
+![add-compare-widget](/img/help/reports/widgets/compare/add-compare-widget.png)
+
+
+### Adding Products for Comparison:
+1. Click “Select Product” to add additional products to compare.
+
+2. Click “Add a new column” to add more product columns.
+
+3. Repeat the selection process to compare multiple products.
+
+![add-products](/img/help/reports/widgets/compare/add-products.png)
+
+### Adding Widgets:
+
+1. Click on “Add new widgets”.
+
+2. Select existing graph widgets to compare the products.
+
+3. You can add multiple widgets to the ‘Compare Widget’ for comparison across various metrics.
+
+![add-widgets](/img/help/reports/widgets/compare/add-widgets.png)
+
+### Additional Features:
+- **Export Data**: Click on the ‘**Export**’ button to export data in CSV format.
+
+- **Expand Graph**: Click on the ‘**Expand**’ button within the widget to enlarge the graph.
+
+- **Remove a Graph Widget**: To remove a specific graph widget, click on the ‘**X**’ button on the graph.
+
+- **Delete Compare Widget**: To delete the entire compare widget, click on the ****ellipsis (⋮) button and select ‘**Remove Widget**’.
+
+![additional-features](/img/help/reports/widgets/compare/additional-features.png)
 
 ## Add chart Widgets:
 
