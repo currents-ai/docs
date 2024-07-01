@@ -29,48 +29,6 @@ Here's a guide on how to create widgets.
 
 ![edit](/img/help/reports/widgets/edit.png)
 
-## Add Compare Widget:
-1. Open the template report you wish to edit.
-
-2. Click on the “Edit” button.
-
-3. Click the down arrow next to “Add Widget” and select “Compare Widget”.
-
-4. The Compare Widget will be added, with the current product pre-selected.
-
-![add-compare-widget](/img/help/reports/widgets/compare/add-compare-widget.png)
-
-
-### Adding Products for Comparison:
-1. Click “Select Product” to add additional products to compare.
-
-2. Click “Add a new column” to add more product columns.
-
-3. Repeat the selection process to compare multiple products.
-
-![add-products](/img/help/reports/widgets/compare/add-products.png)
-
-### Adding Widgets:
-
-1. Click on “Add new widgets”.
-
-2. Select existing graph widgets to compare the products.
-
-3. You can add multiple widgets to the ‘Compare Widget’ for comparison across various metrics.
-
-![add-widgets](/img/help/reports/widgets/compare/add-widgets.png)
-
-### Additional Features:
-- **Export Data**: Click on the ‘**Export**’ button to export data in CSV format.
-
-- **Expand Graph**: Click on the ‘**Expand**’ button within the widget to enlarge the graph.
-
-- **Remove a Graph Widget**: To remove a specific graph widget, click on the ‘**X**’ button on the graph.
-
-- **Delete Compare Widget**: To delete the entire compare widget, click on the ****ellipsis (⋮) button and select ‘**Remove Widget**’.
-
-![additional-features](/img/help/reports/widgets/compare/additional-features.png)
-
 ## Add chart Widgets:
 
 ### 1. Click on "Add Widget"
@@ -94,13 +52,11 @@ The widget builder provides loads of flexible features to help build the perfect
 
 ![new-widget](/img/help/reports/widget-builder.png)
 
-
 #### 3a. Select 'Chart Type'
 
 You can select a chart type from many options - graphs, tables and custom charts.
 
 ![new-widget](/img/help/reports/widget-chart-type.png)
-
 
 #### 3b. Select 'Data Source'
 
@@ -132,6 +88,47 @@ Once you've picked data sources and applied filters, you need to pick the metric
 ---
 
 Once these details are provided, the visualization should show up. Continue to iterate or click "Save" to add the widget to the dashboard.
+
+## Add Compare Widget:
+1. Open the template report you wish to edit.
+
+2. Click on the “Edit” button.
+
+3. Click the down arrow next to “Add Widget” and select “Compare Widget”.
+
+4. The Compare Widget will be added, with the current product pre-selected.
+
+![add-compare-widget](/img/help/reports/widgets/compare/add-compare-widget.png)
+
+### Adding Products for Comparison:
+1. Click “Select Product” to add additional products to compare.
+
+2. Click “Add a new column” to add more product columns.
+
+3. Repeat the selection process to compare multiple products.
+
+![add-products](/img/help/reports/widgets/compare/add-products.png)
+
+### Adding Widgets:
+1. Click on “Add new widgets”.
+
+2. Select existing graph widgets to compare the products.
+
+3. You can add multiple widgets to the ‘Compare Widget’ for comparison across various metrics.
+
+![add-widgets](/img/help/reports/widgets/compare/add-widgets.png)
+
+### Additional Features:
+- **Export Data**: Click on the ‘**Export**’ button to export data in CSV format.
+
+- **Expand Graph**: Click on the ‘**Expand**’ button within the widget to enlarge the graph.
+
+- **Remove a Graph Widget**: To remove a specific graph widget, click on the ‘**X**’ button on the graph.
+
+- **Delete Compare Widget**: To delete the entire compare widget, click on the ****ellipsis (⋮) button and select ‘**Remove Widget**’.
+
+![additional-features](/img/help/reports/widgets/compare/additional-features.png)
+
 
 
 
