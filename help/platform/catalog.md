@@ -46,6 +46,7 @@ Answers to some commonly asked questions are below -
 *   Entity Id
 *   Source Id
 *   URL
+*   Entity Name
 
 These properties have been provided only for the purposes of identifying the product.
 
@@ -55,22 +56,11 @@ These properties have been provided only for the purposes of identifying the pro
 
 The following properties can be edited.
 
-1.  Name
-2.  Brand
-3.  Categories
-4.  Search Terms
-5.  Cross Marketplace Ids
-6.  Visibility
-
-* * *
-
-#### How to change the "Name" of an entity?
-
-The default product name is determined from the marketplace. You can change the name by overriding the “Name” column in the CSV.
-
-Once updated, the new name will be used for search and visualisations (tables, graphs, etc).
-
-Tip - If you just want to add a searchable nick name, add it to "Search Terms" instead of changing the name.
+1.  Brand
+2.  Categories
+3.  Search Terms
+4.  Cross Marketplace Ids
+5.  Visibility
 
 * * *
 
@@ -118,9 +108,19 @@ Catalog Labels are additional filters that you can define and add to a CSV file.
 
 - Open the file using a spreadsheet application.
 
-- Add a new column to the CSV file and name it ‘Catalog Labels’.
+- Add a edit the column named ‘Catalog Labels’.
 
-- In the ‘Catalog Label’ column, enter key-value pairs for each product row you want to label. The format for entering key-value pairs should be key:value. For example, retailer:’small’. You can add multiple key-value pairs for each product by separating them with a comma (,). For example, retailer:’small’,segment:’urban’ .
+- In the ‘Catalog Label’ column, enter key-value pairs for each product row you want to label.
+
+You can add new fields using the **Catalog Labels** column. The value of this column, takes the following format:
+`<key1>: <value1>, <key2>: <value2>`
+
+For example:
+`Priority Product: True, Product Line: AA22AB`
+
+This will create two new fields for the entity - `Priority Product` with the value `True` and `Product Line` with the value `AA22AB`
+
+* * *
 
 - You can add Catalog Labels to all products or only specific products of your choice.
 
