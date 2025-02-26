@@ -121,20 +121,18 @@ For example:
 
 This will create two new fields for the entity - `Priority Product` with the value `True` and `Product Line` with the value `AA22AB`
 
-
-* * *
-
 - You can add Catalog Labels to all products or only specific products of your choice.
 
 - After adding the Catalog Labels, save the modified CSV file and upload it back.
 
 - Once uploaded and refreshed, the Catalog Labels will be available as filters within the tool.
 
-* * *
 
 :::tip
 This is the recommended way to add additional meta-data to the product / entity.
 :::
+
+* * *
 
 #### How to change the specifications of an entity?
 
