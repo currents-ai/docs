@@ -172,7 +172,7 @@ const config: Config = {
     algolia: { 
       appId: '6XF31BUUL9', // The application ID provided by Algolia
       apiKey: 'a7068e95edad7bc387f2549b0f2b3697', // Public API key: it is safe to commit it
-      indexName: 'freetext',
+      indexName: 'Freetext Docs',
       contextualSearch: true,  // Optional: see doc section below
 
       // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
